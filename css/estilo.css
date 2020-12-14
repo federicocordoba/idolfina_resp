@@ -1,0 +1,1490 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+html body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*-------------------------------HEADER-----------------------------*/
+header{
+	background-color: #201F23;
+	height: 90px;
+	position: fixed;
+	z-index: 20;
+}
+
+/*-----------------------------LOGO-----------------------------------*/
+header .logo{
+	display: inline-block;
+	/*float: left;*/
+	height: 90px;
+	padding-left: 4%;
+}
+
+header .logo img{
+	/*display: inline-block;*/
+	margin-top: 17px;
+	float: left;	
+}
+
+header h1{
+	/*display: inline-block;*/
+	float: left;
+	font-family: 'Cabin Sketch', cursive;
+	font-weight: 700;
+	font-size: 60px;
+	font-weight: 700;
+	margin-left: 3%;
+	margin-top: 15px;
+	margin-bottom: 2px;
+	background: linear-gradient(to top right, #ECCD85, #b5c7f3);
+	-webkit-background-clip: text;
+     color: transparent;
+}
+
+
+
+/*------------------------------------MENU-----------------------------------*/
+header .menu{
+	/*width: 60%;*/
+	height: 90px;
+	float: left;
+	/*paddin-left: 8%;*/
+}
+
+header .menu ul{
+	height: 90px;
+	margin: 0px;
+	padding-right: 5%;
+	display: flex;
+	justify-content: flex-end;
+	/*align-items: center;*/
+}
+
+header .menu li{
+	float: left;
+	/*text-align: right;*/
+	list-style: none;
+	margin-top: 32px;
+	margin-right: 2%;
+}
+
+header .menu li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+/*----------------------HOVER MENU--------------------------*/
+header .menu li a:hover{
+	color: #bcbbbd;
+	border-bottom: 1px solid #bcbbbd;
+}
+
+/* -----------------------SEPARADOR IMG Pppal------------------- */
+.separador-imgppal{
+	width: 100%;
+	height: 90px;
+}
+
+/*--------------------------IMG PPAL---------------------------*/
+div.imgppal .img-ppal-cel{
+	display: none;
+}
+
+.imgppal img{
+	width: 100%;
+	
+}
+
+/* ------------------------IMG PROMOS------------------------*/
+
+.imgppal .imgpromos{
+	width: 450px;
+	height: 300px;
+	position: absolute;
+	top: 15%;
+	left: 5.2%;
+}
+
+.imgppal .imgpromos .item h1{
+	color: #d9ffd3;
+	font-weight: 700;
+	font-size: 40px;
+	text-align: center;
+	line-height: 55px;
+	margin-top: 8%;
+	margin-bottom: 10px;
+	text-shadow: 4px 4px 2px black;
+}
+
+.imgppal .imgpromos .item h2{
+	color: #d9ffd3;
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 55px;
+	margin-top: 8%;
+	margin-bottom: 50px;
+	
+	text-shadow: 4px 4px 2px black;
+}
+
+.imgppal .imgpromos .item p{
+	color: 	#ffe9ec;
+	font-size: 40px;
+	margin-top: 8%;
+	margin-bottom: 50px;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: 4px 4px 2px black;
+	
+}
+
+.imgppal .imgpromos #myCarousel ol li{
+	list-style: none;
+}
+
+
+/* ----------------REDES SOCIALES LUEGO DE IMGPpal----------- */
+.borde-imgppal{
+	width: 100%;
+	height: 90px;
+	background-color: #201F23;
+	margin-top: 0px;
+	padding-right: 30px;
+}
+
+.borde-imgppal .redes-sociales{
+	/*display: inline-block;*/
+	font-size: 30px;
+	margin: 30px 0px;
+	float: right;
+}
+
+.borde-imgppal h1{
+	/*display: inline-block;*/
+	font-size: 35px;
+	color: white;
+	margin: 27.5px 40px;
+	float: right;
+}
+
+.borde-imgppal .redes-sociales a{
+	display: inline-block;
+	font-size: 30px;
+	/*color: white;*/
+	margin-right: 20px;
+}
+
+.redes-sociales .fa-facebook-square {
+	color: #4e69a2;
+}
+
+.redes-sociales .fa-instagram {
+	background: linear-gradient(to bottom left, #002aff 0%, #ee2a7b 50%, #f9ed32 100%);
+	-webkit-background-clip: text;
+     color: transparent;
+}
+
+.redes-sociales .fa-youtube {
+	color: #c4302b;
+}
+
+/*-------------------HOVER REDES SOCIALES IMG PPAL--------------*/
+.redes-sociales .fa-facebook-square:hover {
+	color: #2f4779;
+}
+
+.redes-sociales .fa-instagram:hover {
+	background: linear-gradient(to bottom left, #0021cc 0%, #001db7 40%, #c7bd28 100%);
+	-webkit-background-clip: text;
+     color: transparent;
+}
+
+.redes-sociales .fa-youtube:hover {
+	color: #9c2622;
+}
+
+.item .fa-whatsapp {
+	color: #00bb2d ;
+}
+
+/* -----------------------------ARTICLE-------------------------*/
+article{
+	margin-top: 0px;
+	clear: both;
+	margin-bottom: 50px;
+}
+
+article section{
+	width: 100%;
+	/*height: 480px;*/
+	/*height: 560px;*/
+	margin: 80px 0px;
+	/*position: relative;*/
+	clear: both;
+}
+
+.carousel-inner{
+	border-radius: 3%;
+}
+
+article section  h1{
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 10%;
+	margin-left: 15%;
+	margin-bottom: 5%;
+	display: inline-block;
+	border-top: 1px solid #201F23;
+	border-bottom: 1px solid #201F23;
+	/*color: white*/
+}
+
+article section  p{
+	font-size: 22px;
+	margin-left: 15%;
+	margin-right: 15%;
+	color: #79787b;
+	text-align: justify;
+	/*color: white;*/
+}
+
+
+/*----------------------------ALISADO-----------------------------*/
+article section .textalisado{
+	width: 60%;
+	/*height: 480px;*/
+	/*height: 560px;*/
+	/*background-color: beige;*/
+	float: left;
+	
+}
+
+article section .imgalisado{
+	width: calc(40% - 30px);
+	/*height: 480px;*/
+	/*height: 560px;*/
+	padding: 0px;
+	/*background-color: blue;*/
+	float: right;
+	box-shadow: 7px 10px 18px black;
+	margin-right: 30px;
+	margin-bottom: 50px;
+	border-radius: 3%;
+}
+
+article section .imgalisado .item img{
+	width: 100%;
+	/*height: 480px;*/
+	/*height: 560px;*/
+	/*border-radius: 3%;*/
+	/*border: 22px solid red;*/
+}
+
+
+/* -------------------------COLOR--------------------------- */
+article section .textcolor{
+	width: 60%;
+	/*height: 480px;*/
+	/*height: 560px;*/
+	/*background-color: beige;*/
+	float: right;
+}
+
+article section .imgcolor{
+	width: calc(40% - 30px);
+	/*height: 480px;*/
+	/*height: 560px;*/
+	padding: 0px;
+	/*background-color: blue;*/
+	float: left;
+	box-shadow: 7px 10px 18px black;
+	margin-left: 30px;
+	margin-bottom: 50px;
+	border-radius: 3%;
+}
+
+article section .imgcolor .item img{
+	width: 100%;
+	/*height: 480px;*/
+	/*height: 560px;*/
+}
+
+/* -------------------------CORTE/PEINADOS--------------------- */
+article section .textcorte{
+	width: 60%;
+	/*height: 480px;*/
+	/*height: 560px;*/
+	/*background-color: beige;*/
+	float: left;
+}
+
+article section .imgcorte{
+	width: calc(40% - 30px);
+	/*height: 480px;*/
+	/*height: 560px;*/
+	padding: 0px;
+	/*background-color: blue;*/
+	float: right;
+	box-shadow: 7px 10px 18px black;
+	margin-right: 30px;
+	margin-bottom: 50px;
+	border-radius: 3%;
+}
+
+article section .imgcorte .item img{
+	width: 100%;
+	/*height: 480px;*/
+	/*height: 560px;*/
+}
+
+/* -------------------------REFLEJOS--------------------------- */
+article section .textreflejos{
+	width: 60%;
+	/*height: 480px;*/
+	/*height: 560px;*/
+	/*background-color: beige;*/
+	float: right;
+}
+
+article section .imgreflejos{
+	width: calc(40% - 30px);
+	/*height: 480px;*/
+	/*height: 560px;*/
+	padding: 0px;
+	/*background-color: blue;*/
+	float: left;
+	box-shadow: 7px 10px 18px black;
+	margin-left: 30px;
+	margin-bottom: 70px;
+	border-radius: 3%;
+}
+
+article section .imgreflejos .item img{
+	width: 100%;
+	
+	/*height: 480px;*/
+	/*height: 560px;*/
+}
+
+/* -----------------------DIV - VIDEOS---------------------*/
+.div-videos{
+	width: 100%;
+	clear: both;
+	margin-top: 44.5%;
+	
+}
+
+.div-videos h1{
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 5%;
+	text-align: center
+}
+
+.div-videos div{
+	display: inline-block;
+	height: 250px;
+	width: calc(25% - 5px);
+}
+
+.div-videos div .video{
+	border: 5px outset #79787b;
+	padding: 5px;
+}
+
+
+
+
+/* ------------------------PIE DE PAGINA---------------------*/
+/* -------------------------FOOTER---------------------------*/
+footer{
+	width: 100%;
+	height: 400px;
+	/*background-color: red;*/
+	margin-top: 6%;
+}
+
+/*-----------------------------rows---------------------------*/
+footer .rows{
+	width: 100%;
+	height: 400px;
+	/*background-color: blue;*/
+	
+}
+
+/*--------------------------info---------------------------*/
+footer .rows .info{
+	width: 30%;
+	height: 400px;
+	/*background-color: olive;*/
+	float: left;
+	background-image: url(../img/Peluqueria/peluqueria8.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	/*position: relative;*/
+}
+
+/*-------------------------h1,h3,h4----------------------*/
+footer .rows .info .margen{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+footer .rows .info h1 {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 50px;
+	margin-top: 80px;
+	/*margin-top: 110px;*/
+	margin-bottom: 0px;
+
+}
+
+footer .rows .info h3{
+	font-size: 18px;
+	margin-top: -10px;
+	margin-bottom: 50px;
+}
+
+footer .rows .info h4{
+	margin-bottom: 0px;
+	font-size: 16px
+}
+
+/* ------------------------REDES SOCIALES----------------------*/
+footer .rows .info .redes-sociales{
+	/*background-color: red;*/
+	text-align: center;
+	margin: 20px;
+}
+
+footer .rows .info h4 a{
+	/*display: inline-block;*/
+	/*color: white;*/
+	/*text-decoration: none;*/
+	font-size: 20px;
+	margin-left: 10px;	
+}
+
+/*-------------------------IMG LOVE----------------------------*/
+footer .rows .love{
+	width: 45%;
+	height: 400px;
+	/*background-image: url(../img/peluqueria/Love.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	float: left;
+	position: relative;
+	/*---------------Para el Copyright----------------*/
+	/*color: #79787b;*/
+	/*color: white;*/
+	/*display: flex;
+	justify-content: center;
+	align-items: flex-end;*/
+}
+footer .rows .love img{
+	width: 100%;
+	height: 380px;
+}
+
+/* -----------------------COPYRIGHT----------------------*/
+footer .rows .copyright{
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	color: #79787b;
+	background-color: #100f11;
+}
+
+/*-------------------------GOOGLE MAP----------------------------*/
+footer .rows .google-map{
+	width: 25%;
+	height: 400px;
+	/*background-color: red;*/
+	float: left;
+	border: 2px solid #201F23;
+}
+
+footer .rows .google-map iframe{
+	width: 100%;
+	height: 400px;
+}
+
+/* --------------------------RESPONSIVE------------------------- */
+/* --------------------------RESPONSIVE------------------------- */
+/* --------------------------RESPONSIVE------------------------- */
+/* --------------------------RESPONSIVE------------------------- */
+/* -------------Medias de referencia de Bootstrap.--------------- */
+
+/* -------------------------------COMPUTADORA---------------------------*/
+/* -------------------------------1200px y 1399px-----------------------*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+  /* Pc escritorio / monitor grande */
+  	header .logo{
+		width: 30%;
+		padding-left: 2%;
+	}
+
+	header .menu{
+		width: 70%;
+	}
+
+	header .menu ul{
+		padding-right: 2%;
+	}
+
+	header .menu li{
+		margin-right: 1.5%;
+	}
+
+	header .menu li a{
+		font-size: 18px;
+	}
+
+	/* ------------------------IMG Ppal--------------------------*/
+	div.imgppal{
+		
+		top: 100px;
+	}
+
+	/* ------------------------IMG PROMOS------------------------*/
+	.imgppal .imgpromos{
+		width: 400px;
+		height: 200px;
+		top: 14%;
+	}
+
+	.imgppal .imgpromos .item h1{
+		font-size: 35px;
+		margin-top: 6%;
+		line-height: 50px;
+	}
+
+	.imgppal .imgpromos .item h2{
+		font-size: 35px;
+		margin-top: 6%;
+		line-height: 50px;
+	}
+
+	.imgppal .imgpromos .item p{
+		font-size: 30px;
+		margin-top: 6%;
+		line-height: 45px;
+	}
+
+	.separador h1{
+		font-size: 25px;
+	}
+
+}
+
+/* --------------------COMPUTADORA-----------------------------*/
+/* --------------------992px y 1199px---------------------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/* Notebook / monitor pequeño */
+	header .logo{
+		width: 30%;
+		padding-left: 1%;
+	}
+
+	header .logo img{
+		display: inline-block;
+		width: 55px;
+		height: 51px;
+		margin-top: 19.5px;	
+	}
+
+	header h1{
+		font-size: 55px;
+		margin-left: 3%;
+		margin-top: 17.5px;
+	}
+	
+	header .menu{
+		width: 70%;
+	}
+
+	header .menu ul{
+		padding-right: 0%;
+	}
+
+	header .menu li{
+		margin-right: 1.5%;
+		margin-top: 35px;;
+	}
+
+	header .menu li a{
+		font-size: 15px;
+	}
+
+	/* ------------------------IMG PROMOS------------------------*/
+	.imgppal .imgpromos{
+		width: 300px;
+		height: 250px;
+		top: 12%;
+		left: 5.2%;
+	}
+
+	.imgppal .imgpromos .item h1{
+		font-size: 30px;
+		line-height: 40px;
+		margin-top: 8%;
+	}
+
+	.imgppal .imgpromos .item h2{
+		font-size: 30px;
+		line-height: 40px;
+		margin-top: 6%;
+	}
+
+	.imgppal .imgpromos .item p{
+		font-size: 25px;
+		margin-top: 6%;
+	}
+
+	/* ---------------------------REDES SOCIALES-----------------------*/
+	.borde-imgppal .redes-sociales{
+		font-size: 25px;
+		margin: 32.5px 0px;
+	}
+
+	.borde-imgppal h1{
+		font-size: 30px;
+		margin: 26px 35px;
+	}
+
+	.borde-imgppal .redes-sociales a{
+		font-size: 25px;
+		margin-right: 18px;
+	}
+
+	/* ----------------------H1 Y P-----------------------------*/
+	article section  h1{
+		font-size: 35px;
+		
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-bottom: 5%;
+	}
+	
+	article section  p{
+		font-size: 20px;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+	/* ---------------------------VIDEOS------------------------ */
+	.div-videos{
+		/*margin-top: 44.5%;*/
+		margin-top: 43%;
+	}
+	
+	.div-videos h1{
+		font-size: 25px;
+		margin-bottom: 4%;
+	}
+
+	/* ----------------------  ----------------------------*/
+	/*--------------------------info---------------------------*/
+	footer .rows .info{
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+
+}
+
+/* ---------------------------TABLET-----------------------------*/
+/* ----------------------------768 Y 991-------------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+	/* Tablet */
+
+	/*-------------------------------HEADER-----------------------------*/
+	header{
+		height: 80px;
+	}
+
+	/*-----------------------------LOGO-----------------------------------*/
+	header .logo{
+		width: 32%;
+		height: 80px;
+		padding-left: 0.8%;
+	}
+
+	header .logo img{
+		width: 45px;
+		height: 42px;
+		margin-top: 17.5px;	
+	}
+
+	header h1{
+		font-size: 45px;
+		margin-left: 1%;
+		margin-top: 15.25px;
+	}
+
+	/* -------------------------MENU-----------------------------*/
+	header .menu{
+		width: 68%;
+		height: 80px;
+	}
+	
+	header .menu ul{
+		height: 80px;
+		padding-right: 0.8%;
+	}
+
+	header .menu li{
+		margin-right: 1.2%;
+		margin-top: 32px;;
+	}
+	
+	header .menu li a{
+		font-size: 12px;
+	}
+
+	/* -----------------------SEPARADOR IMG Pppal------------------- */
+	.separador-imgppal{
+		height: 80px;
+	}
+
+	/* ------------------------IMG PROMOS------------------------*/
+	.imgppal .imgpromos{
+		width: 240px;
+		height: 150px;
+		top: 10%;
+		left: 4.2%;
+	}
+	
+	.imgppal .imgpromos .item h1{
+		font-size: 25px;
+		line-height: 30px;
+		margin-top: 6%;
+	}
+	
+	.imgppal .imgpromos .item h2{
+		font-size: 25px;
+		line-height: 30px;
+		margin-top: 6%;
+	}
+	
+	.imgppal .imgpromos .item p{
+		font-size: 20px;
+		margin-top: 6%;
+	}
+
+	/* ---------------------------REDES SOCIALES-----------------------*/
+	.borde-imgppal{
+		height: 80px;
+		padding-right: 20px;
+	}
+
+	.borde-imgppal .redes-sociales{
+		font-size: 20px;
+		margin: 30px 0px;
+	}
+	
+	.borde-imgppal h1{
+		font-size: 25px;
+		margin: 27.5px 25px;
+	}
+	
+	.borde-imgppal .redes-sociales a{
+		font-size: 20px;
+		margin-right: 11px;
+	}
+
+	/* -----------------------------ARTICLE-------------------------*/
+	article{
+		margin-top: 0px;
+		margin-bottom: 40px;
+	}
+
+	article section{
+		margin: 50px 0px;
+	}
+
+	article section  h1{
+		font-size: 28px;
+		margin-top: 8%;
+		margin-left: 13%;
+		margin-bottom: 5%;
+	}
+
+	article section  p{
+		font-size: 16px;
+		margin-left: 13%;
+		margin-right: 13%;
+	}
+
+	/* -----------------------DIV - VIDEOS---------------------*/
+	.div-videos{
+		width: 100%;
+		margin: 40% 4% 0% 4% ;
+	}
+
+	.div-videos h1{
+		font-size: 20px;
+	}
+
+	.div-videos div{
+		display: inline-block;
+		height: 250px;
+		width: calc(50% - 4%);
+	}
+
+	.div-videos div .video{
+		padding: 5px;
+	}
+
+	.div-videos div .video source{
+		width: 100%;
+	}
+
+	/* ------------------------PIE DE PAGINA---------------------*/
+	/* -------------------------FOOTER---------------------------*/
+	footer{
+		/*width: 100%;*/
+		height: 350px;
+		/*background-color: red;*/
+		/*margin-top: 6%;*/
+	}
+
+	/*-----------------------------rows---------------------------*/
+	footer .rows{
+		height: 350px;
+	}
+
+	/*--------------------------info---------------------------*/
+	footer .rows .info{
+		width: 40%;
+		height: 350px;
+		padding-left: 3%;
+		padding-right: 3%;
+		/*float: left;*/
+	}
+
+	/*-------------------------h1,h3,h4----------------------*/
+
+	footer .rows .info h1 {
+		margin-top: 55px;
+	}
+
+	footer .rows .info h3{
+		font-size: 18px;
+		margin-top: -10px;
+		margin-bottom: 30px;
+	}
+
+	footer .rows .info h4{
+		margin-bottom: -5px;
+		font-size: 16px
+	}
+
+	/* ------------------------REDES SOCIALES----------------------*/
+	footer .rows .info .redes-sociales{
+		margin-top: 40px;
+	}
+
+	/*footer .rows .info h4 a{
+		/*display: inline-block;*/
+		/*color: white;*/
+		/*text-decoration: none;*/
+		/*font-size: 20px;
+		margin-left: 10px;	
+	}*/
+
+	/*-------------------------IMG LOVE----------------------------*/
+	footer .rows .love{
+		width: 60%;
+		height: 350px;
+		/*float: left;
+		position: relative;*/
+	}
+
+	footer .rows .love img{
+		height: 330px;
+	}
+
+	/* -----------------------COPYRIGHT----------------------*/
+	footer .rows .copyright{
+		height: 20px;
+		text-align: left;
+	}
+
+	/*-------------------------GOOGLE MAP----------------------------*/
+	footer .rows .google-map{
+		display: none;
+		height: 350px;
+	}
+
+	footer .rows .google-map iframe{
+		display: none;
+		height: 350px;
+	}
+		
+}
+
+@media (max-width: 767px) {
+	/* Celular */
+	/*-------------------------------HEADER-----------------------------*/
+	header{	
+		height: 65px;
+	}
+
+	/*-----------------------------LOGO-----------------------------------*/	
+	header .logo{
+		width: 100%;
+		height: 45px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	header .logo img{
+		width: 40px;
+		height: 37px;
+		float: left;
+		margin: 4px 0px 4px 10px;	
+	}
+
+	header h1{
+		font-size: 37px;
+		float: left;
+		font-size: 37px;
+		margin: 4px 0px 4px 7px;
+	}
+
+
+
+	/*------------------------------------MENU-----------------------------------*/
+	header .menu{
+		width: 100%;
+		height: 20px;
+		margin: 0px;
+		padding: 0%;
+	}
+
+	header .menu ul{
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		padding: 0px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;*/
+	}
+
+	header .menu li{
+		display: block;
+		margin: 2px;
+		padding: 0px;
+	}
+
+	header .menu li a{
+		font-size: 8px;
+		display: block;
+		margin: 0%;
+		padding: 0%;
+	}
+
+	/* -----------------------SEPARADOR IMG Pppal------------------- */
+	.separador-imgppal{
+		width: 100%;
+		height: 65px;
+		/*position: static;*/
+	}
+
+	/*--------------------------IMG PPAL---------------------------*/
+	div.imgppal .img-ppal{
+		display: none;
+	}
+
+	div.imgppal .img-ppal-cel{
+		display: inline;
+	}
+
+	.imgppal img{
+	width: 100%;
+	}
+
+	/* ------------------------IMG PROMOS------------------------*/
+
+	.imgppal .imgpromos{
+		width: 100%;
+		height: 65px;
+		position: static;
+		background-color: #201F23;
+		margin: 0%;
+		padding: 0%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+		align-items: center;*/
+	}
+
+	.imgppal .imgpromos .item h1{
+		font-size: 20px;
+		line-height: 15px;
+		margin: 0px;
+		padding: 0%;
+		float: left;
+	}
+
+	.imgppal .imgpromos .item h2{
+		font-size: 20px;
+		margin: 0%;
+		padding: 0%;
+	}
+
+	.imgppal .imgpromos .item p{
+		font-size: 15px;
+		margin: 0%;
+		padding: 0%;
+	}
+
+	/*.imgppal .imgpromos #myCarousel ol li{
+		list-style: none;
+	}*/
+
+	/* ----------------REDES SOCIALES LUEGO DE IMGPpal----------- */
+
+.borde-imgppal{
+	width: 0px;
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.borde-imgppal .redes-sociales{
+	/*display: inline-block;*/
+	margin: 0px;
+	position: absolute;
+	top: 4px;
+	right: 0px;
+	float: right;
+	z-index: 30;
+}
+
+.borde-imgppal .redes-sociales a{
+	font-size: 20px;
+	margin-right: 7px;
+}
+
+.borde-imgppal h1{
+	display: none;
+}
+
+
+	/* -----------------------------ARTICLE-------------------------*/
+	article{
+		width: 100%;
+		clear: both;
+		/*margin-top: 0px;
+		clear: both;
+		margin-bottom: 50px;*/
+	}
+
+	article section{
+		width: 100%;
+		/*height: 480px;*/
+		/*height: 560px;*/
+		margin: 10px 0px;
+		/*position: relative;*/
+		clear: both;
+	}
+
+	.carousel-inner{
+		border-radius: 3%;
+	}
+
+	article section  h1{
+		font-size: 25px;
+		margin-top: 15%;
+		margin-left: 5%;
+		margin-bottom: 5%;
+		/*display: inline-block;
+		border-top: 1px solid #201F23;
+		border-bottom: 1px solid #201F23;
+		/*color: white*/
+	}
+
+	article section  p{
+		font-size: 18px;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 3%;
+	}
+
+	/*----------------------------ALISADO-----------------------------*/
+	article section .textalisado{
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
+		/*height: 480px;*/
+		/*height: 560px;*/
+		/*background-color: beige;*/
+		/*float: left;*/
+	}
+
+	article section .imgalisado{
+		width: 90%;
+		clear: both;
+		margin: 0% 5%;
+		border-radius: 3%;
+
+	}
+
+	article section .imgalisado .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}
+
+	/*----------------------------COLOR-----------------------------*/
+	article section .textcolor{
+		width: 100%;
+		clear: both;
+		float: left;
+		/*height: 480px;*/
+		/*eight: 560px;*/
+		/*background-color: beige;*/
+		/*float: left;*/
+	}
+	
+	article section .imgcolor{
+		width: 90%;
+		clear: both;
+		float: right;
+		margin: 20% 5%;
+		border-radius: 3%;
+	}
+	
+	article section .imgcolor .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}
+
+	/*----------------------------CORTE-----------------------------*/
+	article section .textcorte{
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
+	}
+
+	article section .imgcorte{
+		width: 90%;
+		clear: both;
+		margin: 0% 5%;
+		border-radius: 3%;
+	}
+
+	article section .imgcorte .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}
+
+	/*----------------------------REFLEJOS-----------------------------*/
+	article section .textreflejos{
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
+		/*height: 480px;*/
+		/*height: 560px;*/
+		/*background-color: beige;*/
+		/*float: left;*/
+	}
+
+	article section .imgreflejos{
+		width: 90%;
+		clear: both;
+		margin: 0% 5%;
+		border-radius: 3%;
+
+	}
+
+	article section .imgreflejos .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}
+
+
+	/* -----------------------DIV - VIDEOS---------------------*/
+	.div-videos{
+		width: 100%;
+		clear: both;
+		/*margin-top: 44.5%;*/
+	}
+
+	.div-videos h1{
+		font-size: 20px;
+		margin-bottom: 2%;
+		margin-top: 17%;
+	}
+
+	.div-videos div{
+		display: inline-block;
+		height: 250px;
+		width: 90%;
+		margin: 0% 5%;
+	}
+
+	.div-videos div .video{
+		border: 5px outset #79787b;
+		padding: 5px;
+		margin: 0px;
+	}
+
+	/* ------------------------PIE DE PAGINA---------------------*/
+	/* -------------------------FOOTER---------------------------*/
+	footer{
+		width: 100%;
+		/*height: 300px;*/
+		/*background-color: red;*/
+		margin-top: 15%;
+	}
+
+	/*-----------------------------rows---------------------------*/
+	footer .rows{
+		width: 100%;
+		/*height: 300px;*/
+		/*background-color: blue;*/
+	
+	}
+
+	/*--------------------------info---------------------------*/
+	footer .rows .info{
+		width: 100%;
+		/*height: 300px;*/
+	}
+
+	/*-------------------------h1,h3,h4----------------------*/
+
+	footer .rows .info h1 {
+		margin-top: 70px;
+	}
+
+ 	/* ------------------------REDES SOCIALES----------------------*/
+
+
+	/*-------------------------IMG LOVE----------------------------*/
+	footer .rows .love{
+		width: 100%;
+		/*height: 300px;*/
+	}
+	footer .rows .love img{
+		width: 100%;
+		/*height: 300px;*/
+	}
+
+	/* -----------------------COPYRIGHT----------------------*/
+	footer .rows .copyright{
+		width: 100%;
+	}
+
+	/*-------------------------GOOGLE MAP----------------------------*/
+	footer .rows .google-map{
+		width: 100%;
+		/*height: 350px;*/
+	}
+
+	footer .rows .google-map iframe{
+		width: 100%;
+		/*height: 350px;*/
+	}
+
+}
+
+
+/* ------------------------FIN RESPONSIVE---------------------------------*/
+/* ------------------------FIN RESPONSIVE---------------------------------*/
+/* ------------------------FIN RESPONSIVE---------------------------------*/
+/* ------------------------FIN RESPONSIVE---------------------------------*/
+
+
+
+/*---------------------------------------------------------------*/
+/* --------------------------GRILLA------------------------------ */
+.columna-12{
+	width: 100%;
+	/*background-color: darkseagreen;
+	margin-bottom: 5px;
+	text-align: center;*/
+}
+
+.columna-11{
+	width: 91.666666666667%;
+	/*background-color: orange;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-10{
+	width: 83.333333333333%;
+	/*background-color: darkseagreen;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-9{
+	width: 75%;
+	/*background-color: orange;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-8{
+	width: 66.666666666667%;
+	/*background-color: darkseagreen;
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;*/
+}
+
+.columna-7{
+	width: 58.333333333333%;
+	/*background-color: orange;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-6{
+	width: 50%;
+	/*background-color: darkseagreen;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-5{
+	width: 41.666666666667%;
+	/*background-color: orange;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-4{
+	width: 33.333333333333%;
+	/*background-color: green;*/
+	/*margin-bottom: 5px;
+	text-align: center;
+	float: left;*/
+}
+
+.columna-3{
+	width: 25%;
+	/*background-color: orange;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-2{
+	width: 16.666666666667%;
+	/*background-color: darkseagreen;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+.columna-1{
+	width: 8.333333333333%;
+	/*background-color: orange;*/
+	margin-bottom: 5px;
+	text-align: center;
+	float: left;
+}
+
+
+/* -------------------------------BOTONES----------------------------- */
+.btn{
+	text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+/*TAMAÑO*/
+.btn-pequenio{
+	padding: 2.5px 5px;
+	font-size: 12px;
+	border-radius: 4px;
+}
+.btn-pequenio i{
+	font-size: 10px;
+}
+
+.btn-grande{
+	padding: 6px 12px;
+	font-size: 20px;
+	border-radius: 6px;
+}
+
+.btn-grande i{
+	font-size: 17px;
+}
+
+/*TIPOS*/
+.btn-pildoras{
+	border-radius: 30px;
+}
+
+/*COLORES*/
+.btn-primario{
+	background-color: #201F23;
+	color: #e8e8e9;
+}
+
+.btn-primario:hover{
+	background-color: #e8e8e9;
+	color: #201F23;
+}
+
+.btn-positivo{
+	background-color: #f5e6c2;
+	color: #5e5235;
+}
+
+.btn-positivo:hover{
+	background-color: #201F23;
+	color: #f5e6c2;
+}
+
+.btn-negativo{
+	background-color: red;
+	color: white;
+}
+
+.btn-negativo:hover{
+	background-color: black;
+	color: white;
+}
