@@ -294,6 +294,10 @@ article section .imgalisado .item img{
 
 
 /* -------------------------COLOR--------------------------- */
+article section .textcolor-cel{
+	display: none;
+} 
+
 article section .textcolor{
 	width: 60%;
 	/*height: 480px;*/
@@ -350,6 +354,10 @@ article section .imgcorte .item img{
 }
 
 /* -------------------------REFLEJOS--------------------------- */
+article section .textreflejos-cel{
+	display: none;
+} 
+
 article section .textreflejos{
 	width: 60%;
 	/*height: 480px;*/
@@ -405,6 +413,11 @@ article section .imgreflejos .item img{
 }
 
 
+/* -------------------------GOOGLE MAP TABLET/CEL-------------------- */
+.google-map-tablet-cel{
+	display: none;
+}
+
 
 
 /* ------------------------PIE DE PAGINA---------------------*/
@@ -430,7 +443,7 @@ footer .rows .info{
 	height: 400px;
 	/*background-color: olive;*/
 	float: left;
-	background-image: url(../img/Peluqueria/peluqueria8.jpg);
+	background-image: url(../img/peluqueria/peluqueria8.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	/*position: relative;*/
@@ -852,6 +865,19 @@ footer .rows .google-map iframe{
 		width: 100%;
 	}
 
+	/* -------------------------GOOGLE MAP TABLET/CEL-------------------- */
+	.google-map-tablet-cel{
+		display: block;
+		width: 100%;
+		height: 300px;
+		margin-top: 5%;
+	}
+
+	.google-map-tablet-cel iframe{
+		width: 100%;
+		height: 300px;
+	}
+
 	/* ------------------------PIE DE PAGINA---------------------*/
 	/* -------------------------FOOTER---------------------------*/
 	footer{
@@ -893,6 +919,10 @@ footer .rows .google-map iframe{
 	}
 
 	/* ------------------------REDES SOCIALES----------------------*/
+	footer{
+		margin-top: 0%;
+	}
+
 	footer .rows .info .redes-sociales{
 		margin-top: 40px;
 	}
@@ -936,6 +966,7 @@ footer .rows .google-map iframe{
 		
 }
 
+/* -----------------------------CELULAR---------------------------------*/
 @media (max-width: 767px) {
 	/* Celular */
 	/*-------------------------------HEADER-----------------------------*/
@@ -984,11 +1015,11 @@ footer .rows .google-map iframe{
 		justify-content: center;
 		align-items: center;
 		/*display:flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: center;
-	align-items: center;*/
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+		align-items: center;*/
 	}
 
 	header .menu li{
@@ -1085,6 +1116,7 @@ footer .rows .google-map iframe{
 	right: 0px;
 	float: right;
 	z-index: 30;
+	position: fixed;
 }
 
 .borde-imgppal .redes-sociales a{
@@ -1134,7 +1166,7 @@ footer .rows .google-map iframe{
 		font-size: 18px;
 		margin-left: 5%;
 		margin-right: 5%;
-		margin-bottom: 3%;
+		margin-bottom: 0%;
 	}
 
 	/*----------------------------ALISADO-----------------------------*/
@@ -1142,10 +1174,11 @@ footer .rows .google-map iframe{
 		width: 100%;
 		clear: both;
 		margin-bottom: 5%;
-		/*height: 480px;*/
-		/*height: 560px;*/
-		/*background-color: beige;*/
-		/*float: left;*/
+	
+	}
+
+	article section .textalisado h1{
+		margin-top: 12%;
 	}
 
 	article section .imgalisado{
@@ -1164,20 +1197,22 @@ footer .rows .google-map iframe{
 
 	/*----------------------------COLOR-----------------------------*/
 	article section .textcolor{
+		display: none;
+	}
+
+	article section .textcolor-cel{
+		display: block;
 		width: 100%;
 		clear: both;
-		float: left;
-		/*height: 480px;*/
-		/*eight: 560px;*/
-		/*background-color: beige;*/
-		/*float: left;*/
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
 	}
 	
 	article section .imgcolor{
 		width: 90%;
 		clear: both;
-		float: right;
-		margin: 20% 5%;
+		margin: 2.3% 5%;
 		border-radius: 3%;
 	}
 	
@@ -1192,6 +1227,10 @@ footer .rows .google-map iframe{
 		width: 100%;
 		clear: both;
 		margin-bottom: 5%;
+	}
+
+	article section .textcorte h1{
+		margin-top: 12%;
 	}
 
 	article section .imgcorte{
@@ -1209,29 +1248,30 @@ footer .rows .google-map iframe{
 
 	/*----------------------------REFLEJOS-----------------------------*/
 	article section .textreflejos{
+		display: none;
+	}
+
+	article section .textreflejos-cel{
+		display: block;
+		width: 100%;
+		clear: both;
 		width: 100%;
 		clear: both;
 		margin-bottom: 5%;
-		/*height: 480px;*/
-		/*height: 560px;*/
-		/*background-color: beige;*/
-		/*float: left;*/
 	}
-
+	
 	article section .imgreflejos{
 		width: 90%;
 		clear: both;
-		margin: 0% 5%;
+		margin: 0% 5% 10% 5%;
 		border-radius: 3%;
-
 	}
-
+	
 	article section .imgreflejos .item img{
 		width: 100%;
 		margin: 0%;
 		border-radius: 3%;
 	}
-
 
 	/* -----------------------DIV - VIDEOS---------------------*/
 	.div-videos{
@@ -1243,7 +1283,7 @@ footer .rows .google-map iframe{
 	.div-videos h1{
 		font-size: 20px;
 		margin-bottom: 2%;
-		margin-top: 17%;
+		margin-top: 10%;
 	}
 
 	.div-videos div{
@@ -1259,13 +1299,26 @@ footer .rows .google-map iframe{
 		margin: 0px;
 	}
 
+	/* -------------------------GOOGLE MAP TABLET/CEL-------------------- */
+	.google-map-tablet-cel{
+		display: block;
+		width: 100%;
+		height: 300px;
+		margin-top: 15%;
+	}
+
+	.google-map-tablet-cel iframe{
+		width: 100%;
+		height: 300px;
+	}
+
 	/* ------------------------PIE DE PAGINA---------------------*/
 	/* -------------------------FOOTER---------------------------*/
 	footer{
 		width: 100%;
 		/*height: 300px;*/
 		/*background-color: red;*/
-		margin-top: 15%;
+		margin-top: 0%;
 	}
 
 	/*-----------------------------rows---------------------------*/
@@ -1308,14 +1361,15 @@ footer .rows .google-map iframe{
 
 	/*-------------------------GOOGLE MAP----------------------------*/
 	footer .rows .google-map{
-		width: 100%;
+		display: none;
+		/*width: 100%;*/
 		/*height: 350px;*/
 	}
 
-	footer .rows .google-map iframe{
+	/*footer .rows .google-map iframe{
 		width: 100%;
-		/*height: 350px;*/
-	}
+		height: 350px;
+	}*/
 
 }
 
