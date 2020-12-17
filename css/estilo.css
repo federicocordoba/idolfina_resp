@@ -135,7 +135,6 @@ div.imgppal .img-ppal-cel{
 	line-height: 55px;
 	margin-top: 8%;
 	margin-bottom: 50px;
-	
 	text-shadow: 4px 4px 2px black;
 }
 
@@ -967,7 +966,11 @@ footer .rows .google-map iframe{
 }
 
 /* -----------------------------CELULAR---------------------------------*/
-@media (max-width: 767px) {
+/* -----------------------------CELULAR---------------------------------*/
+/* -----------------------------CELULAR---------------------------------*/
+/* -----------------------------CELULAR---------------------------------*/
+/*@media (max-width: 599px) {*/
+@media (min-width: 600px) and (max-width: 767px) {	
 	/* Celular */
 	/*-------------------------------HEADER-----------------------------*/
 	header{	
@@ -1024,12 +1027,12 @@ footer .rows .google-map iframe{
 
 	header .menu li{
 		display: block;
-		margin: 2px;
+		margin: 0px 4px;
 		padding: 0px;
 	}
 
 	header .menu li a{
-		font-size: 8px;
+		font-size: 12px;
 		display: block;
 		margin: 0%;
 		padding: 0%;
@@ -1086,18 +1089,21 @@ footer .rows .google-map iframe{
 		margin: 7px 20px;
 		padding: 0%;
 		float: left;
+		text-shadow: 4px 4px 2px #566654;
 	}
 
 	.imgppal .imgpromos .item h2{
 		font-size: 20px;
-		margin: 0% 20px;
+		margin: 0px 10px;
 		padding: 0%;
+		text-shadow: 4px 4px 2px #566654;
 	}
 
 	.imgppal .imgpromos .item p{
-		font-size: 15px;
-		margin: 15px 0px;
+		font-size: 18px;
+		margin: 15px 10px;
 		padding: 0%;
+		text-shadow: 4px 4px 2px #7f7476;
 	}
 
 	/*.imgppal .imgpromos #myCarousel ol li{
@@ -1107,8 +1113,8 @@ footer .rows .google-map iframe{
 	/* ----------------REDES SOCIALES LUEGO DE IMGPpal----------- */
 
 .borde-imgppal{
-	width: 0px;
-	height: 0px;
+	width: 100%;
+	height: 1px;
 	margin: 0px;
 	padding: 0px;
 }
@@ -1385,6 +1391,849 @@ footer .rows .google-map iframe{
 	}*/
 
 }
+
+
+@media (min-width: 460px) and (max-width: 599px) {	
+	/*-------------------------------HEADER-----------------------------*/
+	header{	
+		height: 65px;
+	}
+
+	/*-----------------------------LOGO-----------------------------------*/	
+	header .logo{
+		width: 100%;
+		height: 45px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	header .logo img{
+		width: 40px;
+		height: 37px;
+		float: left;
+		margin: 4px 0px 4px 10px;	
+	}
+
+	header h1{
+		font-size: 37px;
+		float: left;
+		font-size: 37px;
+		margin: 4px 0px 4px 7px;
+	}
+
+
+
+	/*------------------------------------MENU-----------------------------------*/
+	header .menu{
+		width: 100%;
+		height: 20px;
+		margin: 0px;
+		padding: 0%;
+	}
+
+	header .menu ul{
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		padding: 0px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+		align-items: center;*/
+	}
+
+	header .menu li{
+		display: block;
+		margin:0px 3px;
+		padding: 0px;
+	}
+
+	header .menu li a{
+		font-size: 10px;
+		display: block;
+		margin: 0%;
+		padding: 0%;
+	}
+	/* -----------------------SEPARADOR IMG Pppal------------------- */
+	.separador-imgppal{
+		width: 100%;
+		height: 65px;
+		/*position: static;*/
+	}
+
+	/*--------------------------IMG PPAL---------------------------*/
+	div.imgppal .img-ppal{
+		display: none;
+	}
+
+	div.imgppal .img-ppal-cel{
+		display: inline;
+	}
+
+	.imgppal img{
+	width: 100%;
+	}
+
+	/* ------------------------IMG PROMOS------------------------*/
+
+	.imgppal .imgpromos{
+		width: 100%;
+		height: 65px;
+		position: static;
+		background-color: #201F23;
+		margin: 0%;
+		padding: 0%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+		align-items: center;*/
+	}
+
+	.imgppal .imgpromos .item {
+		width: 100%;
+		height: 65px;
+	}
+
+	.imgppal .imgpromos .item h1{
+		font-size: 20px;
+		line-height: 15px;
+		margin: 7px 20px;
+		padding: 0%;
+		float: left;
+		text-shadow: 4px 4px 2px #566654;
+	}
+
+	.imgppal .imgpromos .item h2{
+		font-size: 20px;
+		margin: 0px 10px;
+		padding: 0%;
+		text-shadow: 4px 4px 2px #566654;
+	}
+
+	.imgppal .imgpromos .item p{
+		font-size: 18px;
+		margin: 15px 10px;
+		padding: 0%;
+		text-shadow: 4px 4px 2px #7f7476;
+	}
+
+	/*.imgppal .imgpromos #myCarousel ol li{
+		list-style: none;
+	}*/
+
+	/* ----------------REDES SOCIALES LUEGO DE IMGPpal----------- */
+
+	.borde-imgppal{
+		width: 100%;
+		height: 1px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.borde-imgppal .redes-sociales{
+		/*display: inline-block;*/
+		margin: 0px;
+		position: absolute;
+		top: 4px;
+		right: 0px;
+		float: right;
+		z-index: 30;
+		position: fixed;
+	}
+
+	.borde-imgppal .redes-sociales a{
+		font-size: 20px;
+		margin-right: 7px;
+		}
+
+	.borde-imgppal h1{
+		display: none;
+	}
+
+
+	/* -----------------------------ARTICLE-------------------------*/
+	article{
+		width: 100%;
+		clear: both;
+		/*margin-top: 0px;
+		clear: both;
+		margin-bottom: 50px;*/
+	}
+
+	article section{
+		width: 100%;
+		/*height: 480px;*/
+		/*height: 560px;*/
+		margin: 10px 0px;
+		/*position: relative;*/
+		clear: both;
+	}
+
+	.carousel-inner{
+		border-radius: 3%;
+	}
+
+	article section  h1{
+		font-size: 25px;
+		margin-top: 15%;
+		margin-left: 5%;
+		margin-bottom: 5%;
+		/*display: inline-block;
+		border-top: 1px solid #201F23;
+		border-bottom: 1px solid #201F23;
+		/*color: white*/
+	}
+
+	article section  p{
+		font-size: 18px;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 0%;
+	}
+
+	/*----------------------------ALISADO-----------------------------*/
+	article section .textalisado{
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
+	
+	}
+
+	article section .textalisado h1{
+		margin-top: 9%;
+	}
+
+	article section .imgalisado{
+		width: 90%;
+		clear: both;
+		margin: 0% 5%;
+		border-radius: 3%;
+
+	}
+
+	article section .imgalisado .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}
+
+	/*----------------------------COLOR-----------------------------*/
+	article section .textcolor{
+		display: none;
+	}
+
+	article section .textcolor-cel{
+		display: block;
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
+	}
+
+	article section .textcolor-cel h1{
+		margin-top: 12%;
+	}
+	
+	article section .imgcolor{
+		width: 90%;
+		clear: both;
+		margin: 0% 5% 0% 5%;
+		border-radius: 3%;
+		/*width: 90%;
+		clear: both;
+		margin: 2.3% 5%;
+		border-radius: 3%;*/
+	}
+	
+	article section .imgcolor .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}
+
+	/*----------------------------CORTE-----------------------------*/
+	article section .textcorte{
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
+	}
+
+	article section .textcorte h1{
+		margin-top: 12%;
+	}
+
+	article section .imgcorte{
+		width: 90%;
+		clear: both;
+		margin: 0% 5%;
+		border-radius: 3%;
+	}
+
+	article section .imgcorte .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}
+
+	/*----------------------------REFLEJOS-----------------------------*/
+	article section .textreflejos{
+		display: none;
+	}
+
+	article section .textreflejos-cel{
+		display: block;
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
+	}
+
+	article section .textreflejos-cel h1{
+		margin-top: 12%;
+	}
+	
+	article section .imgreflejos{
+		width: 90%;
+		clear: both;
+		margin: 0% 5% 10% 5%;
+		border-radius: 3%;
+	}
+	
+	article section .imgreflejos .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}
+
+	/* -----------------------DIV - VIDEOS---------------------*/
+	.div-videos{
+		width: 100%;
+		clear: both;
+		/*margin-top: 44.5%;*/
+	}
+
+	.div-videos h1{
+		font-size: 20px;
+		margin-bottom: 2%;
+		margin-top: 10%;
+	}
+
+	.div-videos div{
+		display: inline-block;
+		height: 250px;
+		width: 90%;
+		margin: 0% 5%;
+	}
+
+	.div-videos div .video{
+		border: 5px outset #79787b;
+		padding: 5px;
+		margin: 0px;
+	}
+
+	/* -------------------------GOOGLE MAP TABLET/CEL-------------------- */
+	.google-map-tablet-cel{
+		display: block;
+		width: 100%;
+		height: 300px;
+		margin-top: 15%;
+	}
+
+	.google-map-tablet-cel iframe{
+		width: 100%;
+		height: 300px;
+	}
+
+	/* ------------------------PIE DE PAGINA---------------------*/
+	/* -------------------------FOOTER---------------------------*/
+	footer{
+		width: 100%;
+		/*height: 300px;*/
+		/*background-color: red;*/
+		margin-top: 0%;
+	}
+
+	/*-----------------------------rows---------------------------*/
+	footer .rows{
+		width: 100%;
+		/*height: 300px;*/
+		/*background-color: blue;*/
+	
+	}
+
+	/*--------------------------info---------------------------*/
+	footer .rows .info{
+		width: 100%;
+		/*height: 300px;*/
+	}
+
+	/*-------------------------h1,h3,h4----------------------*/
+
+	footer .rows .info h1 {
+		margin-top: 70px;
+	}
+
+ 	/* ------------------------REDES SOCIALES----------------------*/
+
+
+	/*-------------------------IMG LOVE----------------------------*/
+	footer .rows .love{
+		width: 100%;
+		/*height: 300px;*/
+	}
+	footer .rows .love img{
+		width: 100%;
+		/*height: 300px;*/
+	}
+
+	/* -----------------------COPYRIGHT----------------------*/
+	footer .rows .copyright{
+		width: 100%;
+	}
+
+	/*-------------------------GOOGLE MAP----------------------------*/
+	footer .rows .google-map{
+		display: none;
+		/*width: 100%;*/
+		/*height: 350px;*/
+	}
+
+	/*footer .rows .google-map iframe{
+		width: 100%;
+		height: 350px;
+	}*/
+
+}
+
+@media (max-width: 459px) {
+	/*-------------------------------HEADER-----------------------------*/
+	header{	
+		height: 65px;
+	}
+
+	/*-----------------------------LOGO-----------------------------------*/	
+	header .logo{
+		width: 100%;
+		height: 45px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	header .logo img{
+		width: 40px;
+		height: 37px;
+		float: left;
+		margin: 4px 0px 4px 10px;	
+	}
+
+	header h1{
+		font-size: 37px;
+		float: left;
+		font-size: 37px;
+		margin: 4px 0px 4px 7px;
+	}
+
+
+
+	/*------------------------------------MENU-----------------------------------*/
+	header .menu{
+		width: 100%;
+		height: 20px;
+		margin: 0px;
+		padding: 0%;
+	}
+
+	header .menu ul{
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		padding: 0px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+		align-items: center;*/
+	}
+
+	header .menu li{
+		display: block;
+		margin:0px 2px;
+		padding: 0px;
+	}
+
+	header .menu li a{
+		font-size: 8px;
+		display: block;
+		margin: 0%;
+		padding: 0%;
+	}
+	/* -----------------------SEPARADOR IMG Pppal------------------- */
+	.separador-imgppal{
+		width: 100%;
+		height: 65px;
+		/*position: static;*/
+	}
+
+	/*--------------------------IMG PPAL---------------------------*/
+	div.imgppal .img-ppal{
+		display: none;
+	}
+
+	div.imgppal .img-ppal-cel{
+		display: inline;
+	}
+
+	.imgppal img{
+	width: 100%;
+	}
+
+	/* ------------------------IMG PROMOS------------------------*/
+
+	.imgppal .imgpromos{
+		width: 100%;
+		height: 65px;
+		position: static;
+		background-color: #201F23;
+		margin: 0%;
+		padding: 0%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/*display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+		align-items: center;*/
+	}
+
+	.imgppal .imgpromos .item {
+		width: 100%;
+		height: 65px;
+	}
+
+	.imgppal .imgpromos .item h1{
+		font-size: 20px;
+		line-height: 15px;
+		margin: 7px 20px;
+		padding: 0%;
+		float: left;
+		text-shadow: 4px 4px 2px #566654;
+	}
+
+	.imgppal .imgpromos .item h2{
+		font-size: 20px;
+		margin: 0px 10px;
+		padding: 0%;
+		text-shadow: 4px 4px 2px #566654;
+	}
+
+	.imgppal .imgpromos .item p{
+		font-size: 18px;
+		margin: 15px 10px;
+		padding: 0%;
+		text-shadow: 4px 4px 2px #7f7476;
+	}
+
+	/*.imgppal .imgpromos #myCarousel ol li{
+		list-style: none;
+	}*/
+
+	/* ----------------REDES SOCIALES LUEGO DE IMGPpal----------- */
+
+	.borde-imgppal{
+		width: 100%;
+		height: 1px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.borde-imgppal .redes-sociales{
+		/*display: inline-block;*/
+		margin: 0px;
+		position: absolute;
+		top: 4px;
+		right: 0px;
+		float: right;
+		z-index: 30;
+		position: fixed;
+	}
+
+	.borde-imgppal .redes-sociales a{
+		font-size: 20px;
+		margin-right: 7px;
+		}
+
+	.borde-imgppal h1{
+		display: none;
+	}
+
+
+	/* -----------------------------ARTICLE-------------------------*/
+	article{
+		width: 100%;
+		clear: both;
+		/*margin-top: 0px;
+		clear: both;
+		margin-bottom: 50px;*/
+	}
+
+	article section{
+		width: 100%;
+		/*height: 480px;*/
+		/*height: 560px;*/
+		margin: 10px 0px;
+		/*position: relative;*/
+		clear: both;
+	}
+
+	.carousel-inner{
+		border-radius: 3%;
+	}
+
+	article section  h1{
+		font-size: 25px;
+		margin-top: 15%;
+		margin-left: 5%;
+		margin-bottom: 5%;
+		/*display: inline-block;
+		border-top: 1px solid #201F23;
+		border-bottom: 1px solid #201F23;
+		/*color: white*/
+	}
+
+	article section  p{
+		font-size: 18px;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 0%;
+	}
+
+	/*----------------------------ALISADO-----------------------------*/
+	article section .textalisado{
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
+	
+	}
+
+	article section .textalisado h1{
+		margin-top: 9%;
+	}
+
+	article section .imgalisado{
+		width: 90%;
+		clear: both;
+		margin: 0% 5%;
+		border-radius: 3%;
+
+	}
+
+	article section .imgalisado .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}
+
+	/*----------------------------COLOR-----------------------------*/
+	article section .textcolor{
+		display: none;
+	}
+
+	article section .textcolor-cel{
+		display: block;
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
+	}
+
+	article section .textcolor-cel h1{
+		margin-top: 12%;
+	}
+	
+	article section .imgcolor{
+		width: 90%;
+		clear: both;
+		margin: 0% 5% 0% 5%;
+		border-radius: 3%;
+		/*width: 90%;
+		clear: both;
+		margin: 2.3% 5%;
+		border-radius: 3%;*/
+	}
+	
+	article section .imgcolor .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}
+
+	/*----------------------------CORTE-----------------------------*/
+	article section .textcorte{
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
+	}
+
+	article section .textcorte h1{
+		margin-top: 12%;
+	}
+
+	article section .imgcorte{
+		width: 90%;
+		clear: both;
+		margin: 0% 5%;
+		border-radius: 3%;
+	}
+
+	article section .imgcorte .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}
+
+	/*----------------------------REFLEJOS-----------------------------*/
+	article section .textreflejos{
+		display: none;
+	}
+
+	article section .textreflejos-cel{
+		display: block;
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
+	}
+
+	article section .textreflejos-cel h1{
+		margin-top: 12%;
+	}
+	
+	article section .imgreflejos{
+		width: 90%;
+		clear: both;
+		margin: 0% 5% 10% 5%;
+		border-radius: 3%;
+	}
+	
+	article section .imgreflejos .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}
+
+	/* -----------------------DIV - VIDEOS---------------------*/
+	.div-videos{
+		width: 100%;
+		clear: both;
+		/*margin-top: 44.5%;*/
+	}
+
+	.div-videos h1{
+		font-size: 20px;
+		margin-bottom: 2%;
+		margin-top: 10%;
+	}
+
+	.div-videos div{
+		display: inline-block;
+		height: 250px;
+		width: 90%;
+		margin: 0% 5%;
+	}
+
+	.div-videos div .video{
+		border: 5px outset #79787b;
+		padding: 5px;
+		margin: 0px;
+	}
+
+	/* -------------------------GOOGLE MAP TABLET/CEL-------------------- */
+	.google-map-tablet-cel{
+		display: block;
+		width: 100%;
+		height: 300px;
+		margin-top: 15%;
+	}
+
+	.google-map-tablet-cel iframe{
+		width: 100%;
+		height: 300px;
+	}
+
+	/* ------------------------PIE DE PAGINA---------------------*/
+	/* -------------------------FOOTER---------------------------*/
+	footer{
+		width: 100%;
+		/*height: 300px;*/
+		/*background-color: red;*/
+		margin-top: 0%;
+	}
+
+	/*-----------------------------rows---------------------------*/
+	footer .rows{
+		width: 100%;
+		/*height: 300px;*/
+		/*background-color: blue;*/
+	
+	}
+
+	/*--------------------------info---------------------------*/
+	footer .rows .info{
+		width: 100%;
+		/*height: 300px;*/
+	}
+
+	/*-------------------------h1,h3,h4----------------------*/
+
+	footer .rows .info h1 {
+		margin-top: 70px;
+	}
+
+ 	/* ------------------------REDES SOCIALES----------------------*/
+
+
+	/*-------------------------IMG LOVE----------------------------*/
+	footer .rows .love{
+		width: 100%;
+		/*height: 300px;*/
+	}
+	footer .rows .love img{
+		width: 100%;
+		/*height: 300px;*/
+	}
+
+	/* -----------------------COPYRIGHT----------------------*/
+	footer .rows .copyright{
+		width: 100%;
+	}
+
+	/*-------------------------GOOGLE MAP----------------------------*/
+	footer .rows .google-map{
+		display: none;
+		/*width: 100%;*/
+		/*height: 350px;*/
+	}
+
+	/*footer .rows .google-map iframe{
+		width: 100%;
+		height: 350px;
+	}*/
+
+}
+
+
 
 
 /* ------------------------FIN RESPONSIVE---------------------------------*/
