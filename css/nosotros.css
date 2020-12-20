@@ -1,0 +1,1750 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+html body{
+    font-family: 'Source Sans Pro', sans-serif;
+    /*background-color: orange;*/
+}
+
+
+
+
+/*-------------------------------HEADER-----------------------------*/
+header{
+    background-color: #201F23;
+    width: 100%;
+	height: 90px;
+	position: fixed;
+	z-index: 20;
+    box-shadow: 0px 7px 28px #201F23;
+    clear: both;
+}
+
+/*-----------------------------LOGO-----------------------------------*/
+header .logo{
+	/*display: inline-block;*/
+    float: left;
+    width: 25%;
+	height: 90px;
+    padding-left: 4%;
+    /*background-color: blue;*/
+}
+
+header .logo img{
+	/*display: inline-block;*/
+	margin-top: 17px;
+	float: left;	
+}
+
+header h1{
+	/*display: inline-block;*/
+	float: left;
+	font-family: 'Cabin Sketch', cursive;
+	font-weight: 700;
+	font-size: 60px;
+	font-weight: 700;
+	margin-left: 4%;
+	margin-top: 15px;
+	margin-bottom: 2px;
+	background: linear-gradient(to top right, #ECCD85, #b5c7f3);
+	-webkit-background-clip: text;
+     color: transparent;
+}
+
+
+
+/*------------------------------------MENU-----------------------------------*/
+header .menu{
+	width: 75%;
+	height: 90px;
+    float: left;
+    /*background-color: burlywood;*/
+    padding-right: 4%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /*justify-content: space-around;*/
+}
+
+header .menu a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+    font-size: 20px;
+    margin-left: 2%;
+	
+}
+
+/*----------------------------------HOVER MENU--------------------------------------*/
+header .menu a:hover{
+	color: #bcbbbd;
+	border-bottom: 1px solid #bcbbbd;
+}
+
+
+
+/* ------------------------------SEPARADOR IMG Ppal--------------------------------*/
+.separador-img-ppal{
+    width: 100%;
+    height: 65px;
+}
+
+
+
+/* ------------------------------IMG Ppal--------------------------------*/
+.imgppal{
+    width: 100%;
+    /*height: 850px;
+    background-color: burlywood;*/
+}
+
+.imgppal img{
+	width: 100%;
+}
+
+
+
+
+
+/* ----------------REDES SOCIALES LUEGO DE IMGPpal----------- */
+.borde-redes-sociales{
+	width: 100%;
+	height: 90px;
+	background-color: #201F23;
+    margin-top: 0px;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+	/*padding-right: 30px;*/
+}
+
+.borde-redes-sociales .redes-sociales{
+	font-size: 30px;
+	margin: 0px 25px 0px 25px;
+	/*float: right;*/
+}
+
+.borde-redes-sociales h1{
+	font-size: 35px;
+    color: white;
+    margin: 0px;
+	/*margin: 27.5px 40px;*/
+	/*float: right;*/
+}
+
+.borde-redes-sociales .redes-sociales a{
+	display: inline-block;
+    font-size: 30px;
+    margin: 0px 5px;
+	/*margin-right: 20px;*/
+}
+
+.redes-sociales .fa-facebook-square {
+	color: #4e69a2;
+}
+
+.redes-sociales .fa-instagram {
+	background: linear-gradient(to bottom left, #002aff 0%, #ee2a7b 50%, #f9ed32 100%);
+	-webkit-background-clip: text;
+     color: transparent;
+}
+
+.redes-sociales .fa-youtube {
+	color: #c4302b;
+}
+
+/*-------------------HOVER REDES SOCIALES IMG PPAL--------------*/
+.redes-sociales .fa-facebook-square:hover {
+	color: #2f4779;
+}
+
+.redes-sociales .fa-instagram:hover {
+	background: linear-gradient(to bottom left, #0021cc 0%, #001db7 40%, #c7bd28 100%);
+	-webkit-background-clip: text;
+     color: transparent;
+}
+
+.redes-sociales .fa-youtube:hover {
+	color: #9c2622;
+}
+
+.item .fa-whatsapp {
+	color: #00bb2d ;
+}
+
+
+
+
+
+/* ------------------------------SEPARADOR ARTICLE--------------------------------*/
+.div-separador{
+    width: 100%;
+	height:90px;
+	clear: both;
+}
+
+
+
+
+/* -----------------------------ARTICLE-------------------------*/
+article{
+    width: 100%;
+	margin-top: 0px;
+	clear: both;
+	/*margin-bottom: 50px;*/
+}
+
+article section{
+	width: 100%;
+	/*margin: 80px 0px;*/
+	/*position: relative;*/
+	/*clear: both;*/
+}
+
+.carousel-inner{
+	border-radius: 3%;
+}
+
+article section  h1{
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 10%;
+	margin-left: 15%;
+	margin-bottom: 5%;
+	display: inline-block;
+	border-top: 1px solid #201F23;
+	border-bottom: 1px solid #201F23;
+}
+
+article section  p{
+	font-size: 22px;
+	margin-left: 15%;
+	margin-right: 15%;
+	color: #79787b;
+	text-align: justify;
+}
+
+
+
+
+/*----------------------------PELUQUERIA-----------------------------*/
+article section .text-nosotros{
+	width: 60%;
+	float: left;
+}
+
+article section .img-nosotros{
+	width: calc(40% - 30px);
+	padding: 0px;
+	/*background-color: blue;*/
+	float: right;
+	box-shadow: 7px 10px 38px black;
+	margin-right: 30px;
+	margin-bottom: 0px;
+	border-radius: 3%;
+}
+
+article section .img-nosotros .item img{
+	width: 100%;
+}
+
+
+
+
+/* ------------------------------CERTIFICADO---------------------------- */
+.div-separador-certificado1{
+    width: 100%;
+	height:90px;
+	border-bottom: 1px solid #201F23;
+	clear: both;
+}
+
+.div-separador-certificado2{
+    width: 100%;
+	height:90px;
+}
+
+article section .text-certificado{
+	width: 60%;
+	float: right;
+}
+
+article section .text-certificado p{
+	font-size: 20px;
+	margin-top: 1%;
+	margin-left: 3%;
+	margin-right: 3%;
+	color: #79787b;
+	text-align: left;
+}
+
+article section .img-certificado{
+	width: 360px;
+	padding: 0px;
+	/*background-color: blue;*/
+	float: left;
+	box-shadow: 7px 10px 38px black;
+	margin-left: 5%;
+	margin-bottom: 0%;
+	border-radius: 3%;
+}
+
+article section .img-certificado img{
+	width: 100%;
+	border-radius: 3%;
+}
+
+
+
+
+
+
+/* -------------------------GOOGLE MAP TABLET/CEL-------------------- */
+.google-map-tablet-cel{
+	display: none;
+}
+
+
+
+/* ------------------------PIE DE PAGINA---------------------*/
+/* -------------------------FOOTER---------------------------*/
+footer{
+	width: 100%;
+	height: 400px;
+	/*background-color: red;*/
+	margin-top: 0%;
+}
+
+/*-----------------------------rows---------------------------*/
+footer .rows{
+	width: 100%;
+	height: 400px;
+	/*background-color: blue;*/
+	
+}
+
+/*--------------------------info---------------------------*/
+footer .rows .info{
+	width: 30%;
+	height: 400px;
+	/*background-color: olive;*/
+	float: left;
+	background-image: url(../img/peluqueria/peluqueria8.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	/*position: relative;*/
+}
+
+/*-------------------------h1,h3,h4----------------------*/
+footer .rows .info .margen{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+footer .rows .info h1 {
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 50px;
+	margin-top: 80px;
+	/*margin-top: 110px;*/
+	margin-bottom: 0px;
+
+}
+
+footer .rows .info h3{
+	font-size: 18px;
+	margin-top: -10px;
+	margin-bottom: 50px;
+}
+
+footer .rows .info h4{
+	margin-bottom: 0px;
+	font-size: 16px
+}
+
+/* ------------------------REDES SOCIALES----------------------*/
+footer .rows .info .redes-sociales{
+	/*background-color: red;*/
+	text-align: center;
+	margin: 20px;
+}
+
+footer .rows .info h4 a{
+	/*display: inline-block;*/
+	/*color: white;*/
+	/*text-decoration: none;*/
+	font-size: 20px;
+	margin-left: 10px;	
+}
+
+/*-------------------------IMG LOVE----------------------------*/
+footer .rows .love{
+	width: 45%;
+	height: 400px;
+	float: left;
+	position: relative;
+}
+footer .rows .love img{
+	width: 100%;
+	height: 380px;
+}
+
+/* -----------------------COPYRIGHT----------------------*/
+footer .rows .copyright{
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	color: #79787b;
+	background-color: #100f11;
+}
+
+/*-------------------------GOOGLE MAP----------------------------*/
+footer .rows .google-map{
+	width: 25%;
+	height: 400px;
+	/*background-color: red;*/
+	float: left;
+	border: 2px solid #201F23;
+}
+
+footer .rows .google-map iframe{
+	width: 100%;
+	height: 400px;
+}
+
+
+
+
+
+/* -------------------------------RESPONSIVE----------------------------- */
+/* -------------------------------RESPONSIVE----------------------------- */
+/* -------------------------------RESPONSIVE----------------------------- */
+/* -------------------------------RESPONSIVE----------------------------- */
+
+/* -------------------------------COMPUTADORA---------------------------*/
+/* -------------------------------1200px y 1399px-----------------------*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+	/* Pc escritorio / monitor grande */
+
+
+	/* ------------------------------SEPARADOR IMG Ppal--------------------------------*/
+	.separador-img-ppal{
+		width: 100%;
+		height: 90px;
+	}
+
+
+
+
+	/*-------------------------------HEADER-----------------------------*/
+
+	/*-----------------------------LOGO-----------------------------------*/
+	header .logo{
+	   	width: 30%;
+	   	padding-left: 3%;
+		/*background-color: blue;*/
+	}
+
+	header .logo img{
+		display: inline-block;
+		width: 55px;
+		height: 51px;
+		margin-top: 19.5px;		
+	}
+
+	header h1{
+		font-size: 55px;
+		margin-left: 4%;
+		margin-top: 17.5px;
+	}
+
+
+
+	/*------------------------------------MENU-----------------------------------*/
+	header .menu{
+		width: 70%;
+		/*background-color: burlywood;*/
+		padding-right: 3%;
+	}
+
+	header .menu a{
+		font-size: 18px;
+		margin-left: 1.5%;
+	}
+}
+
+
+
+
+
+/* --------------------COMPUTADORA-----------------------------*/
+/* --------------------992px y 1199px---------------------------*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/* Notebook / monitor pequeño */
+
+
+	/* ------------------------------SEPARADOR IMG Ppal--------------------------------*/
+	.separador-img-ppal{
+   	 	width: 100%;
+    	height: 90px;
+	}
+
+
+
+
+	/*-------------------------------HEADER-----------------------------*/
+
+	/*-----------------------------LOGO-----------------------------------*/
+	header .logo{
+   		width: 30%;
+   		padding-left: 1%;
+    	/*background-color: blue;*/
+	}
+
+	header .logo img{
+		display: inline-block;
+		width: 55px;
+		height: 51px;
+		margin-top: 19.5px;		
+	}
+
+	header h1{
+		font-size: 55px;
+		margin-left: 3%;
+		margin-top: 17.5px;
+	}
+
+
+
+	/*------------------------------------MENU-----------------------------------*/
+	header .menu{
+		width: 70%;
+    	/*background-color: burlywood;*/
+    	padding-right: 1%;
+	}
+
+	header .menu a{
+    	font-size: 15px;
+    	margin-left: 1.5%;
+	}
+
+
+
+
+	/* ----------------REDES SOCIALES LUEGO DE IMGPpal----------- */
+
+	.borde-redes-sociales .redes-sociales{
+		font-size: 30px;
+		margin: 0px 25px 0px 25px;
+		/*float: right;*/
+	}
+
+	.borde-redes-sociales h1{
+		font-size: 30px;
+	}
+
+	.borde-redes-sociales .redes-sociales a{
+    	font-size: 25px;
+	}
+
+
+
+	/* ----------------------H1 Y P-----------------------------*/
+	article section  h1{
+		font-size: 35px;
+		margin-top: 10%;
+		margin-left: 15%;
+		margin-bottom: 5%;
+	}
+		
+	article section  p{
+		font-size: 20px;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+
+
+	/* ------------------------------CERTIFICADO---------------------------- */
+	.div-separador-certificado1{
+		height:80px;
+	}
+
+	.div-separador-certificado2{
+		height:80px;
+	}
+
+	article section .text-certificado{
+		width: 60%;
+		float: right;
+		padding-top: 0.5%;
+	}
+
+	article section .text-certificado p{
+		font-size: 18px;
+		margin-top: 0%;
+		margin-left: 0%;
+		margin-right: 3%;
+	}
+
+	article section .img-certificado{
+		width: 300px;
+		padding: 0px;
+		margin-top: 0%;
+		margin-left: 3%;
+		margin-bottom: 0%;
+		border-radius: 3%;
+	}
+
+	article section .img-certificado img{
+		width: 100%;
+		border-radius: 3%;
+	}
+
+}
+
+
+
+
+
+
+/* ---------------------------TABLET-----------------------------*/
+/* ----------------------------768 Y 991-------------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+	/* Tablet */
+
+
+
+	/*-------------------------------HEADER-----------------------------*/
+	header{
+		height: 80px;
+	}
+
+
+
+	/* ------------------------------SEPARADOR IMG Ppal--------------------------------*/
+	.separador-img-ppal{
+		width: 100%;
+	height: 80px;
+	}
+
+
+
+	/*-----------------------------LOGO-----------------------------------*/
+	header .logo{
+   		width: 30%;
+   		padding-left: 0.8%;
+    	/*background-color: blue;*/
+	}
+
+	header .logo img{
+		display: inline-block;
+		width: 45px;
+		height: 42px;
+		margin-top: 19px;		
+	}
+
+	header h1{
+		font-size: 45px;
+		margin-left: 1%;
+		margin-top: 17.5px;
+	}
+
+
+
+	/*------------------------------------MENU-----------------------------------*/
+	header .menu{
+		width: 70%;
+    	/*background-color: burlywood;*/
+    	padding-right: 1%;
+	}
+
+	header .menu a{
+    	font-size: 12px;
+    	margin-left: 1%;
+	}
+
+
+
+
+	/* ----------------REDES SOCIALES LUEGO DE IMGPpal----------- */
+	.borde-redes-sociales{
+		height: 80px;
+	}
+
+
+
+	.borde-redes-sociales .redes-sociales{
+		font-size: 25px;
+		margin: 0px 25px 0px 25px;
+		/*float: right;*/
+	}
+	
+	.borde-redes-sociales h1{
+		font-size: 25px;
+	}
+	
+	.borde-redes-sociales .redes-sociales a{
+		font-size: 20px;
+	}
+	
+
+
+
+	/* ------------------------------SEPARADOR ARTICLE--------------------------------*/
+	.div-separador{
+		height:80px;
+	}
+	
+	
+
+	/* ---------------------ARTICLE------------------------- */
+	header .logo{
+		height: 80px;
+	}
+
+
+	header .menu{
+		height: 80px;
+	}
+
+
+
+	/* ----------------------H1 Y P-----------------------------*/
+	article section  h1{
+		font-size: 28px;
+		margin-top: 8%;
+		margin-left: 13%;
+		margin-bottom: 5%;
+	}
+			
+	article section  p{
+		font-size: 16px;
+		margin-left: 13%;
+		margin-right: 13%;
+	}
+
+
+
+
+	/* ----------------------- SEPARADOR CERTIFICADO----------------------- */
+	.div-separador-certificado1{
+		height:80px;
+	}
+
+	.div-separador-certificado2{
+		height:80px;
+	}
+
+
+
+	/* ------------------------------CERTIFICADO----------------------------- */
+	article section .text-certificado{
+		width: 100%;
+		float: left;
+		margin-top: 5%;
+	}
+
+	article section .text-certificado p{
+		font-size: 15px;
+		margin-left: 5%;
+		margin-right: 5%;
+		
+	}
+
+	article section .img-certificado{
+		width: 280px;
+	}
+
+
+	
+
+
+	/* -------------------------GOOGLE MAP TABLET/CEL-------------------- */
+	.google-map-tablet-cel{
+		display: block;
+		width: 100%;
+		height: 300px;
+		/*margin-top: 5%;*/
+	}
+	
+	.google-map-tablet-cel iframe{
+		width: 100%;
+		height: 300px;
+	}
+	
+	/* ------------------------PIE DE PAGINA---------------------*/
+	/* -------------------------FOOTER---------------------------*/
+	footer{
+		height: 350px;
+	}
+	
+	/*-----------------------------rows---------------------------*/
+	footer .rows{
+		height: 350px;
+	}
+	
+	/*--------------------------info---------------------------*/
+	footer .rows .info{
+		width: 40%;
+		height: 350px;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	
+	/*-------------------------h1,h3,h4----------------------*/
+	
+	footer .rows .info h1 {
+		margin-top: 55px;
+	}
+	
+	footer .rows .info h3{
+		font-size: 18px;
+		margin-top: -10px;
+		margin-bottom: 30px;
+	}
+	
+	footer .rows .info h4{
+		margin-bottom: -5px;
+		font-size: 16px
+	}
+	
+	/* ------------------------REDES SOCIALES----------------------*/
+	footer{
+		margin-top: 0%;
+	}
+	
+	footer .rows .info .redes-sociales{
+		margin-top: 40px;
+	}
+	
+	
+	/*-------------------------IMG LOVE----------------------------*/
+	footer .rows .love{
+		width: 60%;
+		height: 350px;
+	}
+	
+	footer .rows .love img{
+		height: 330px;
+	}
+	
+	/* -----------------------COPYRIGHT----------------------*/
+	footer .rows .copyright{
+		height: 20px;
+		text-align: left;
+	}
+	
+	/*-------------------------GOOGLE MAP----------------------------*/
+	footer .rows .google-map{
+		display: none;
+		height: 350px;
+	}
+	
+	footer .rows .google-map iframe{
+		display: none;
+		height: 350px;
+	}
+
+
+
+}
+/* -----------------------------CELULAR---------------------------------*/
+/* -----------------------------CELULAR---------------------------------*/
+/* -----------------------------CELULAR---------------------------------*/
+/* -----------------------------CELULAR---------------------------------*/
+
+@media (min-width: 600px) and (max-width: 767px) {	
+	/* Celular */
+
+
+	/*-------------------------------HEADER-----------------------------*/
+	header{	
+		height: 65px;
+	}
+
+
+
+	/*-----------------------------LOGO-----------------------------------*/	
+	header .logo{
+		width: 100%;
+		height: 45px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	header .logo img{
+		width: 40px;
+		height: 37px;
+		float: left;
+		margin: 4px 0px 4px 10px;	
+	}
+
+	header h1{
+		font-size: 37px;
+		float: left;
+		font-size: 37px;
+		margin: 4px 0px 4px 7px;
+	}
+
+
+
+
+	/*------------------------------------MENU-----------------------------------*/
+	header .menu{
+		width: 100%;
+		height: 20px;
+		margin: 0px;
+		padding: 0%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	header .menu a{
+		font-size: 12px;
+		display: block;
+		margin: 0% 1%;
+		padding: 0%;
+	}
+
+
+
+
+	/* -----------------------SEPARADOR IMG Pppal------------------- */
+	.separador-img-ppal{
+		width: 100%;
+		height: 65px;
+		/*position: static;*/
+	}
+
+
+
+
+	/* ----------------REDES SOCIALES LUEGO DE IMGPpal----------- */
+
+	.borde-redes-sociales{
+		width: 100%;
+		height: 65px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.borde-redes-sociales .redes-sociales{
+		/*display: inline-block;*/
+		margin: 0px;
+		position: absolute;
+		top: 4px;
+		right: 0px;
+		float: right;
+		z-index: 30;
+		position: fixed;
+	}
+
+	.borde-redes-sociales .redes-sociales a{
+		font-size: 20px;
+		margin-right: 7px;
+	}
+
+	.borde-redes-sociales h1{
+		display: none;
+	}
+
+
+
+
+	/* ------------------------------SEPARADOR ARTICLE--------------------------------*/
+	.div-separador{
+		height:65px;
+	}
+
+
+
+		/* -----------------------------ARTICLE-------------------------*/
+		article{
+			width: 100%;
+			clear: both;
+		}
+	
+		article section{
+			width: 100%;
+			clear: both;
+		}
+	
+		/*.carousel-inner{
+			border-radius: 3%;
+		}*/
+	
+		article section  h1{
+			font-size: 25px;
+			margin-top: 0%;
+			margin-left: 5%;
+			margin-bottom: 5%;
+		}
+	
+		article section  p{
+			font-size: 18px;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-bottom: 0%;
+		}
+
+
+
+
+	/*----------------------------NOSOTROS-----------------------------*/
+	article section .text-nosotros{
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
+	
+	}
+
+	/*article section .text-nosotros h1{
+		margin-top: 9%;
+	}*/
+
+	article section .img-nosotros{
+		width: 90%;
+		clear: both;
+		margin: 0% 5%;
+		border-radius: 3%;
+
+	}
+
+	article section .img-nosotros .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}	
+
+
+
+
+	/* ----------------------- SEPARADOR CERTIFICADO----------------------- */
+	.div-separador-certificado1{
+		height: 65px;
+	}
+
+	.div-separador-certificado2{
+		height: 65px;
+	}
+
+
+
+
+
+	/* ------------------------------CERTIFICADO----------------------------- */
+	article section .text-certificado{
+		width: 100%;
+		float: left;
+		margin-top: 5%;
+	}
+	
+	article section .text-certificado p{
+		font-size: 15px;
+		margin-left: 5%;
+		margin-right: 5%;
+			
+	}
+	
+	article section .img-certificado{
+		width: 280px;
+		clear: both;
+	}
+
+
+
+
+
+	/* -------------------------GOOGLE MAP TABLET/CEL-------------------- */
+	.google-map-tablet-cel{
+		display: block;
+		width: 100%;
+		height: 300px;
+		/*margin-top: 5%;*/
+	}
+	
+	.google-map-tablet-cel iframe{
+		width: 100%;
+		height: 300px;
+	}
+	
+	/* ------------------------PIE DE PAGINA---------------------*/
+	/* -------------------------FOOTER---------------------------*/
+	/*footer{
+		height: 350px;
+	}*/
+	
+	/*-----------------------------rows---------------------------*/
+	/*footer .rows{
+		height: 350px;
+	}*/
+	
+	/*--------------------------info---------------------------*/
+	footer .rows .info{
+		width: 100%;
+		/*height: 350px;*/
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	
+	/*-------------------------h1,h3,h4----------------------*/
+	
+	footer .rows .info h1 {
+		margin-top: 70px;
+	}
+	
+	footer .rows .info h3{
+		font-size: 18px;
+		margin-top: -10px;
+		margin-bottom: 30px;
+	}
+	
+	footer .rows .info h4{
+		margin-bottom: 0px;
+		font-size: 16px
+	}
+	
+	/* ------------------------REDES SOCIALES----------------------*/
+	footer{
+		margin-top: 0%;
+	}
+	
+	footer .rows .info .redes-sociales{
+		margin-top: 30px;
+	}
+	
+	
+	/*-------------------------IMG LOVE----------------------------*/
+	footer .rows .love{
+		width: 100%;
+		/*height: 350px;*/
+	}
+	
+	footer .rows .love img{
+		width: 100%;
+		/*height: 330px;*/
+	}
+	
+	/* -----------------------COPYRIGHT----------------------*/
+	footer .rows .copyright{
+		height: 20px;
+		text-align: center;
+	}
+	
+	/*-------------------------GOOGLE MAP----------------------------*/
+	footer .rows .google-map{
+		display: none;
+		height: 350px;
+	}
+	
+	footer .rows .google-map iframe{
+		display: none;
+		height: 350px;
+	}
+
+}
+
+
+
+
+
+
+/* --------------------------------CELULAR MEDIANO--------------------------*/
+/* --------------------------------CELULAR MEDIANO--------------------------*/
+/* --------------------------------CELULAR MEDIANO--------------------------*/
+
+@media (min-width: 460px) and (max-width: 599px) {
+
+	/*-------------------------------HEADER-----------------------------*/
+	header{	
+		height: 65px;
+	}
+
+
+
+	/*-----------------------------LOGO-----------------------------------*/	
+	header .logo{
+		width: 100%;
+		height: 45px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	header .logo img{
+		width: 40px;
+		height: 37px;
+		float: left;
+		margin: 4px 0px 4px 10px;	
+	}
+
+	header h1{
+		font-size: 37px;
+		float: left;
+		margin: 4px 0px 4px 7px;
+	}
+
+
+
+
+	/*------------------------------------MENU-----------------------------------*/
+	header .menu{
+		width: 100%;
+		height: 20px;
+		margin: 0px;
+		padding: 0%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	header .menu a{
+		font-size: 10px;
+		display: block;
+		margin: 0% 0.5%;
+		padding: 0%;
+	}
+
+
+
+
+	/* -----------------------SEPARADOR IMG Pppal------------------- */
+	.separador-img-ppal{
+		width: 100%;
+		height: 65px;
+		/*position: static;*/
+	}
+
+
+
+
+	/* ----------------REDES SOCIALES LUEGO DE IMGPpal----------- */
+
+	.borde-redes-sociales{
+		width: 100%;
+		height: 45px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.borde-redes-sociales .redes-sociales{
+		/*display: inline-block;*/
+		margin: 0px;
+		position: absolute;
+		top: 4px;
+		right: 0px;
+		float: right;
+		z-index: 30;
+		position: fixed;
+	}
+
+	.borde-redes-sociales .redes-sociales a{
+		font-size: 20px;
+		margin-right: 7px;
+	}
+
+	.borde-redes-sociales h1{
+		display: none;
+	}
+
+
+
+
+	/* ------------------------------SEPARADOR ARTICLE--------------------------------*/
+	.div-separador{
+		height:45px;
+	}
+
+
+
+	/* -----------------------------ARTICLE-------------------------*/
+	article{
+		width: 100%;
+		clear: both;
+	}
+	
+	article section{
+		width: 100%;
+		clear: both;
+	}
+	
+	/*.carousel-inner{
+		border-radius: 3%;
+	}*/
+	
+	article section  h1{
+		font-size: 25px;
+		margin-top: 0%;
+		margin-left: 5%;
+		margin-bottom: 5%;
+	}
+	
+	article section  p{
+		font-size: 18px;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 0%;
+	}
+
+
+
+
+	/*----------------------------NOSOTROS-----------------------------*/
+	article section .text-nosotros{
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
+	
+	}
+
+	/*article section .text-nosotros h1{
+		margin-top: 9%;
+	}*/
+
+	article section .img-nosotros{
+		width: 90%;
+		clear: both;
+		margin: 0% 5%;
+		border-radius: 3%;
+
+	}
+
+	article section .img-nosotros .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}	
+
+
+
+
+	/* ----------------------- SEPARADOR CERTIFICADO----------------------- */
+	.div-separador-certificado1{
+		height: 45px;
+	}
+
+	.div-separador-certificado2{
+		height: 45px;
+	}
+
+
+
+
+
+	/* ------------------------------CERTIFICADO----------------------------- */
+	article section .text-certificado{
+		width: 100%;
+		float: left;
+		margin-top: 5%;
+	}
+	
+	article section .text-certificado p{
+		font-size: 15px;
+		margin-left: 5%;
+		margin-right: 5%;
+			
+	}
+	
+	article section .img-certificado{
+		width: 280px;
+		clear: both;
+	}
+
+
+
+
+
+	/* -------------------------GOOGLE MAP TABLET/CEL-------------------- */
+	.google-map-tablet-cel{
+		display: block;
+		width: 100%;
+		height: 300px;
+		/*margin-top: 5%;*/
+	}
+	
+	.google-map-tablet-cel iframe{
+		width: 100%;
+		height: 300px;
+	}
+	
+	/* ------------------------PIE DE PAGINA---------------------*/
+	/* -------------------------FOOTER---------------------------*/
+	/*footer{
+		height: 350px;
+	}*/
+	
+	/*-----------------------------rows---------------------------*/
+	/*footer .rows{
+		height: 350px;
+	}*/
+	
+	/*--------------------------info---------------------------*/
+	footer .rows .info{
+		width: 100%;
+		/*height: 350px;*/
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	
+	/*-------------------------h1,h3,h4----------------------*/
+	
+	footer .rows .info h1 {
+		margin-top: 70px;
+	}
+	
+	footer .rows .info h3{
+		font-size: 18px;
+		margin-top: -10px;
+		margin-bottom: 50px;
+	}
+	
+	footer .rows .info h4{
+		margin-bottom: 0px;
+		font-size: 16px
+	}
+	
+	/* ------------------------REDES SOCIALES----------------------*/
+	footer{
+		margin-top: 0%;
+	}
+	
+	footer .rows .info .redes-sociales{
+		margin-top: 30px;
+	}
+	
+	
+	/*-------------------------IMG LOVE----------------------------*/
+	footer .rows .love{
+		width: 100%;
+		/*height: 350px;*/
+	}
+	
+	footer .rows .love img{
+		width: 100%;
+		/*height: 330px;*/
+	}
+	
+	/* -----------------------COPYRIGHT----------------------*/
+	footer .rows .copyright{
+		height: 20px;
+		text-align: center;
+	}
+	
+	/*-------------------------GOOGLE MAP----------------------------*/
+	footer .rows .google-map{
+		display: none;
+		height: 350px;
+	}
+	
+	footer .rows .google-map iframe{
+		display: none;
+		height: 350px;
+	}
+
+}
+
+
+
+
+
+/* -----------------------------CELULAR CHICO--------------------------*/
+/* -----------------------------CELULAR CHICO--------------------------*/
+/* -----------------------------CELULAR CHICO--------------------------*/
+
+@media (max-width: 459px) {
+
+	/*-------------------------------HEADER-----------------------------*/
+	header{	
+		height: 65px;
+	}
+
+
+
+	/*-----------------------------LOGO-----------------------------------*/	
+	header .logo{
+		width: 100%;
+		height: 45px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	header .logo img{
+		width: 40px;
+		height: 37px;
+		float: left;
+		margin: 4px 0px 4px 10px;	
+	}
+
+	header h1{
+		font-size: 37px;
+		float: left;
+		margin: 4px 0px 4px 7px;
+	}
+
+
+
+
+	/*------------------------------------MENU-----------------------------------*/
+	header .menu{
+		width: 100%;
+		height: 20px;
+		margin: 0px;
+		padding: 0%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	header .menu a{
+		font-size: 8px;
+		display: block;
+		margin: 0% 0.5%;
+		padding: 0%;
+	}
+
+
+
+
+	/* -----------------------SEPARADOR IMG Pppal------------------- */
+	.separador-img-ppal{
+		width: 100%;
+		height: 65px;
+		/*position: static;*/
+	}
+
+
+
+
+	/* ----------------REDES SOCIALES LUEGO DE IMGPpal----------- */
+
+	.borde-redes-sociales{
+		width: 100%;
+		height: 45px;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.borde-redes-sociales .redes-sociales{
+		/*display: inline-block;*/
+		margin: 0px;
+		position: absolute;
+		top: 4px;
+		right: 0px;
+		float: right;
+		z-index: 30;
+		position: fixed;
+	}
+
+	.borde-redes-sociales .redes-sociales a{
+		font-size: 20px;
+		margin-right: 7px;
+	}
+
+	.borde-redes-sociales h1{
+		display: none;
+	}
+
+
+
+
+	/* ------------------------------SEPARADOR ARTICLE--------------------------------*/
+	.div-separador{
+		height:45px;
+	}
+
+
+
+	/* -----------------------------ARTICLE-------------------------*/
+	article{
+		width: 100%;
+		clear: both;
+	}
+	
+	article section{
+		width: 100%;
+		clear: both;
+	}
+	
+	/*.carousel-inner{
+		border-radius: 3%;
+	}*/
+	
+	article section  h1{
+		font-size: 25px;
+		margin-top: 0%;
+		margin-left: 5%;
+		margin-bottom: 5%;
+	}
+	
+	article section  p{
+		font-size: 18px;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 0%;
+	}
+
+
+
+
+	/*----------------------------NOSOTROS-----------------------------*/
+	article section .text-nosotros{
+		width: 100%;
+		clear: both;
+		margin-bottom: 5%;
+	
+	}
+
+	/*article section .text-nosotros h1{
+		margin-top: 9%;
+	}*/
+
+	article section .img-nosotros{
+		width: 90%;
+		clear: both;
+		margin: 0% 5%;
+		border-radius: 3%;
+
+	}
+
+	article section .img-nosotros .item img{
+		width: 100%;
+		margin: 0%;
+		border-radius: 3%;
+	}	
+
+
+
+
+	/* ----------------------- SEPARADOR CERTIFICADO----------------------- */
+	.div-separador-certificado1{
+		height: 45px;
+	}
+
+	.div-separador-certificado2{
+		height: 45px;
+	}
+
+
+
+
+
+	/* ------------------------------CERTIFICADO----------------------------- */
+	article section .text-certificado{
+		width: 100%;
+		float: left;
+		margin-top: 5%;
+	}
+	
+	article section .text-certificado p{
+		font-size: 15px;
+		margin-left: 5%;
+		margin-right: 5%;
+			
+	}
+	
+	article section .img-certificado{
+		width: 280px;
+		clear: both;
+	}
+
+
+
+
+
+	/* -------------------------GOOGLE MAP TABLET/CEL-------------------- */
+	.google-map-tablet-cel{
+		display: block;
+		width: 100%;
+		height: 300px;
+		/*margin-top: 5%;*/
+	}
+	
+	.google-map-tablet-cel iframe{
+		width: 100%;
+		height: 300px;
+	}
+	
+	/* ------------------------PIE DE PAGINA---------------------*/
+	/* -------------------------FOOTER---------------------------*/
+	/*footer{
+		height: 350px;
+	}*/
+	
+	/*-----------------------------rows---------------------------*/
+	/*footer .rows{
+		height: 350px;
+	}*/
+	
+	/*--------------------------info---------------------------*/
+	footer .rows .info{
+		width: 100%;
+		/*height: 350px;*/
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	
+	/*-------------------------h1,h3,h4----------------------*/
+	
+	footer .rows .info h1 {
+		margin-top: 70px;
+	}
+	
+	footer .rows .info h3{
+		font-size: 18px;
+		margin-top: -10px;
+		margin-bottom: 50px;
+	}
+	
+	footer .rows .info h4{
+		margin-bottom: 0px;
+		font-size: 16px
+	}
+	
+	/* ------------------------REDES SOCIALES----------------------*/
+	footer{
+		margin-top: 0%;
+	}
+	
+	footer .rows .info .redes-sociales{
+		margin-top: 30px;
+	}
+	
+	
+	/*-------------------------IMG LOVE----------------------------*/
+	footer .rows .love{
+		width: 100%;
+		/*height: 350px;*/
+	}
+	
+	footer .rows .love img{
+		width: 100%;
+		/*height: 330px;*/
+	}
+	
+	/* -----------------------COPYRIGHT----------------------*/
+	footer .rows .copyright{
+		height: 20px;
+		text-align: center;
+	}
+	
+	/*-------------------------GOOGLE MAP----------------------------*/
+	footer .rows .google-map{
+		display: none;
+		height: 350px;
+	}
+	
+	footer .rows .google-map iframe{
+		display: none;
+		height: 350px;
+	}
+
+}
